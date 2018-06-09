@@ -1,0 +1,16 @@
+name: my-website
+output:
+  html_document:
+    theme: readable
+    highlight: tango
+    lib_dir: site_libs
+    self_contained: no
+navbar:
+  title: <div style="color:black; font-size:110%"><img src="EA_Logo.png" height="30" width = "30"></img> <b>&nbsp;YEA Innovation</b></div>
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+output_dir: "docs"
+

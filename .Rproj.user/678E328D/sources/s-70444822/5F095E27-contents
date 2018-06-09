@@ -1,0 +1,43 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::html_document:
+    orientation: columns
+    vertical_layout: scroll
+    toc: true
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(ggplot2)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, colour = Species)) +
+    geom_point()
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+this is a test paragraph 
+
+```{r}
+
+```
+
+### Chart C
+
+so is this
+```{r}
+
+```
+
